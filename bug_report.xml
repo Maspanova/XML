@@ -1,1 +1,8 @@
-
+<Bug>
+<Number>1</Number>
+<Summary>На странице Login выдается невалидноое сообщение об ошибке при вводе невалидного логина</ Summary>
+<Severity>Critical</Severity>
+<Steps>[1.Открыть сайт http://skilluptesting.gear.host, 2. Перейти на страницу login, 3. Вести в строку Login name  "qawer", 4. Ввести в строку password  "qwerty", 5. Нажать кнопку "Login"]</Steps>
+<Actual result>Сообщение:Error.An error occurred while processing your request</Actual result>
+<Expected result>сообщение: Incorrect login or password</Expected result>
+</Bug>
